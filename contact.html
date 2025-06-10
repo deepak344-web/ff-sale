@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | DeepakCo</title>
+  <link rel="stylesheet" href="contact-style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <h1 class="logo">DeepakCo</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Have a question or want to work together? Send us a message!</p>
+      
+      <div class="contact-wrapper">
+        <section id="contact">
+  <h2>Contact Us</h2>
+  <form action="send-message.php" method="POST" class="contact-form">
+    <label for="name">Your Name</label>
+    <input type="text" name="name" id="name" required>
+
+    <label for="email">Your Email</label>
+    <input type="email" name="email" id="email" required>
+
+    <label for="message">Your Message</label>
+    <textarea name="message" id="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+        <div class="contact-info">
+          <h3>Our Info</h3>
+          <p><strong>Email:</strong> nanuu.23.09@gmail.com</p>
+          <p><strong>Phone:</strong> (+91) 7011655120</p>
+          <p><strong>Address:</strong> HANS ENCLAVE, Near Rajiv Chowk (ggn.)</p>
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1219.283020514239!2d77.02535091386041!3d28.44387800793396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1748937994702!5m2!1sen!2sin"
+             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 DesignCo. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
